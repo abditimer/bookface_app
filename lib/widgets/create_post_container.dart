@@ -1,5 +1,5 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_facebook_responsive_ui/widgets/widgets.dart';
 
 import '../models/models.dart';
 
@@ -21,12 +21,7 @@ class CreatePostContainer extends StatelessWidget {
           Row(
             children: [
               // Current User Image
-              CircleAvatar(
-                radius: 20.0,
-                backgroundColor: Colors.grey[200],
-                backgroundImage:
-                    CachedNetworkImageProvider(currentUser.imageUrl),
-              ),
+              ProfileAvatar(imageUrl: currentUser.imageUrl),
               // Space between avatarimg and text - const is added so sizedbox is not re-rendered everytime we rebuild widget
               const SizedBox(
                 width: 8.0,
