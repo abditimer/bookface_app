@@ -1,9 +1,9 @@
 import 'package:flutter_facebook_responsive_ui/models/models.dart';
 
 final User currentUser = User(
-  name: 'Marcus Ng',
+  name: 'Abdi Timer',
   imageUrl:
-      'https://images.unsplash.com/photo-1578133671540-edad0b3d689e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80',
+      'https://avatars3.githubusercontent.com/u/20443214?s=400&u=39296a4e4a59f4578d3bef4eabb4ec31904b0a22&v=4',
 );
 
 final List<User> onlineUsers = [
@@ -18,9 +18,9 @@ final List<User> onlineUsers = [
         'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
   ),
   User(
-    name: 'Matthew Hinkle',
+    name: 'President Obama',
     imageUrl:
-        'https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1331&q=80',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/1200px-President_Barack_Obama.jpg',
   ),
   User(
     name: 'Amy Smith',
@@ -111,7 +111,7 @@ final List<Story> stories = [
   Story(
     user: onlineUsers[2],
     imageUrl:
-        'https://images.unsplash.com/photo-1498307833015-e7b400441eb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80',
+        'https://image.cnbcfm.com/api/v1/image/106664042-15974168312020-07-30t175815z_296526731_rc2t3i9359ng_rtrmadp_0_people-john-lewis-georgia.jpeg?v=1597430738&w=678&h=381',
   ),
   Story(
     user: onlineUsers[6],
@@ -167,9 +167,9 @@ final List<Story> stories = [
 final List<Post> posts = [
   Post(
     user: currentUser,
-    caption: 'Check out these cool puppers',
+    caption: 'Finally certified in Azure Data Science!',
     timeAgo: '58m',
-    imageUrl: 'https://images.unsplash.com/photo-1525253086316-d0c936c814f8',
+    imageUrl: 'https://miro.medium.com/max/600/1*0II-GwnU9Ad4S8IrDGF3fQ.png',
     likes: 1202,
     comments: 184,
     shares: 96,
